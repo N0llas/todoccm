@@ -1,0 +1,20 @@
+.insertBox {
+  display: flex;
+}
+
+.todoContainer {
+  >div {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+
+    span {
+      display: block;
+      font-size: 22px;
+    }
+
+    button {
+      background-color: transparent;
+      margin-top: 5px;
+    }
+  }
+}
